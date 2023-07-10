@@ -1,0 +1,112 @@
+/* navbar creating */
+nav{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    margin-top: auto;
+align-items: center;
+    
+
+}
+.logo-title{
+    list-style: none;
+
+}
+.nav-info{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 25px;
+    color: azure;
+    
+}
+li{
+    list-style: none;
+}
+ /* main body stylew */
+.main-banner{
+    height: 100vh;
+    background-image: url(/asset/image/background.jpg),
+    linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+    display: flex;
+    align-items: center;
+   
+    
+
+}
+.main-banner-info{ 
+    text-align: center;
+
+    
+
+}
+.ban{
+    width: 100vh;
+    height: 100vh;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+    color:whitesmoke;margin-bottom:0;
+
+}
+.banner-para{
+    color: whitesmoke;
+    padding: 20px;width: 50%;
+    margin: auto;
+
+}
+.bold-title{
+    color: red;
+}
+.btn{
+   border: none;
+   background: red;
+   box-shadow: 5px;
+   border-radius: 5px;
+}
+      /* Author section style */
+      
+      .author-sec1{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+      }
+      .author-sec2{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+      }
+      .au-title{
+        margin: 15px;
+        font-size: 40px;
+    font-weight: bold;
+    color:black
+      }
+      .au-info{
+        width: 500px;
+      }
+      .au-display{
+        display: flex;
+        margin-top:10px;
+      }
+      .au-btn{
+        border-radius: 10px;
+        width: 100px;
+        background: white;
+        color: red;
+        padding: 5px;
+      }
+      .au-right{
+        margin-top: 100px;
+      }
